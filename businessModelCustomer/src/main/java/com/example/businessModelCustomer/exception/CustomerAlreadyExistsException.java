@@ -1,0 +1,11 @@
+package com.example.businessModelCustomer.exception;
+
+import java.time.LocalDate;
+
+
+
+public class CustomerAlreadyExistsException extends RuntimeException{
+  public CustomerAlreadyExistsException(String message) {
+	  super(message);
+  }
+}
